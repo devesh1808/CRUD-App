@@ -16,8 +16,16 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="container-fluid ">
-          <h4 className="navbar-brand"><Link to="/">My App</Link></h4>
+        <div className="container-fluid">
+          {/* <h4 className="navbar-brand"><Link to="/">My App</Link></h4> */}
+          <Link to="/">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW7SYkObOQbNei9g3G5AnM1oLKwsFVQBpLrQ&usqp=CAU"
+              alt="logo"
+              width={40}
+              className="navbar-brand"
+            />
+          </Link>
 
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
