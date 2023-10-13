@@ -20,7 +20,7 @@ const Read = () => {
   }, []);
 
   if (loading) {
-    return <h2>Loading</h2>;
+    return <h2 className="text-white">Loading...</h2>;
   }
 
   return (
@@ -68,7 +68,7 @@ const Read = () => {
         </span>
       </div>
 
-      <div className="row row-cols-md-3">
+      <div>
         {users &&
           users
             .filter((ele) => {
