@@ -32,8 +32,8 @@ const Read = () => {
           setShowPopup={setShowPopup}
         />
       )}
-      <h2 className="mt-4">All Users</h2>
-      <div className="">
+      <h2 className="mt-4 text-white">All Users</h2>
+      <div className="text-white">
         <span className="m-2">
           <input
             className="form-check-input"

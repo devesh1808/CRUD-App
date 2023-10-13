@@ -33,8 +33,8 @@ const Update = () => {
 
   return (
     <div>
-      <h2 className="my-2">Edit the data</h2>
-      <form className="w-50 mx-auto my-5" onSubmit={handleUpdate}>
+      <h2 className="my-5 text-white">Edit the data</h2>
+      <form className="w-50 mx-auto my-5 text-white" onSubmit={handleUpdate}>
         <div class="mb-3">
           <label class="form-label">Name</label>
           <input
