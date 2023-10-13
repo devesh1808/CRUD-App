@@ -23,7 +23,7 @@ const Create = () => {
 
   return (
     <div>
-      <h2 className="my-2">Fill the data</h2>
+      <h2 className="my-5">Create a User</h2>
       <form className="w-50 mx-auto my-5" onSubmit={handleSubmit}>
         <div class="mb-3">
           <label class="form-label">Name</label>

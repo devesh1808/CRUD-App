@@ -17,17 +17,17 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid ">
-          <h4 className="navbar-brand"><Link to="/read">My App</Link></h4>
+          <h4 className="navbar-brand"><Link to="/">My App</Link></h4>
 
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link to="/" className="nav-link">
+                <Link to="/create" className="nav-link">
                   Create a User
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/read" className="nav-link">
+                <Link to="/" className="nav-link">
                   All Users ({allusers.length})
                 </Link>
               </li>
